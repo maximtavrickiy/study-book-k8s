@@ -1,0 +1,31 @@
+# Образы дисков и VM
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+*.vhd
+*.iso
+.vagrant/
+
+# Kubernetes-доступы
+kubeconfig*
+*.kubeconfig
+admin.conf
+
+# Ключи и секреты
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+
+# Ansible
+*.retry
+
+# Python
+.venv/
+__pycache__/
+
+# ОС
+.DS_Store
+Thumbs.db
